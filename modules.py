@@ -2,7 +2,7 @@ import random
 
 def divisible_integers(firstint, secondint):
 
-    division_list=[]
+    division_list = []
 
     for i in range(1, 1601):
 
