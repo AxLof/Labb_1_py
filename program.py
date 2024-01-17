@@ -23,7 +23,7 @@ while user_choice != 3:
                 continue
 
             case 3:
-                exit()
+                pass
 
             case default:
                 print('\nPlease enter a valid number!')
