@@ -1,7 +1,7 @@
 import modules
 
 
-user_choice = int
+user_choice = 0
 
 while user_choice != 3:
     try:
