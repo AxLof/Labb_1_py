@@ -29,6 +29,9 @@ def guessing_numbers():
 
             elif input_number < random_number:
                 print('Too low, try again!')
+
+            elif input_number > 60:
+                print("\nPlease a number in range 1-60!")
         except ValueError:
             print('Wrong input type!')
             print('\nGuess a number between 1 and 60')
